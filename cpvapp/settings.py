@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'cpvapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'DESARROLLO_CPV',
-        'USER': 'lfarfan',
-        'PASSWORD': 'lfarfan',
-        'HOST': '172.18.1.81',
-        'PORT': '',
+        'NAME': 'TU BASE DE DATOS',
+        'USER': 'TU USUARIO',
+        'PASSWORD': 'TU CLAVE',
+        'HOST': 'TU SERVIDOR',
+        'PORT': 'TU PUERTO',
 
         'OPTIONS': {
             'driver': 'SQL Server',
